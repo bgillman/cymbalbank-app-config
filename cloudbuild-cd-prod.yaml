@@ -8,7 +8,5 @@ steps:
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=us-west1-a'
   - 'CLOUDSDK_CONTAINER_CLUSTER=cymbal-prod'
-  options:
-    logging: GCS_ONLY
-    defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
-  serviceAccount: cymbal-gsa@krm-platform.iam.gserviceaccount.com
+  logsBucket: 'gs://krm-platform-bucket'
+  options: GCS_ONLY
