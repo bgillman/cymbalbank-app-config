@@ -10,4 +10,4 @@ steps:
   - 'CLOUDSDK_CONTAINER_CLUSTER=cymbal-prod'
 logsBucket: 'gs://krm-platform-bucket'
 options: 
- loggin: GCS_ONLY
+ logging: GCS_ONLY
